@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<meta charset="utf-8">
+    <title>Calculadora</title>
+    <script src="js.js"></script>
+    </style>
+</head>
+<body>
+<h1>Calculadora De Juros Composto</h1>
+
+<div class ="container">
+	<div class="botao">
+	<h2>Escreva o capital Investido</h2>
+	<input type="number" id="capital" name="Capital">
+	<h2>Escreva a taxa de juros(Sendo 1 = 100%)</h2>
+	<input type="number" id="juros" name="juros">
+	<h2>Escreva O Tempo</h2>
+	<input type="number" id="tempo" name="tempo"><br>
+	<h2>Rendimento Da Aplicação</h2>
+	<label id="rend" name="rend" readonly></label><br><br>
+	<button type="Submit" onclick="calcular()">Calcular</button><br><br>
+<p id="resposta">Mês Respectivamente em Ordem Crescente:<br></p>
+</div>
+<br><br>
+</div>
+
+
+</body>
+</html>
